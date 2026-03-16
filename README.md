@@ -3,9 +3,15 @@
 
 This project analyzes urban transportation system data using SQL to extract meaningful insights about commuter behavior, route usage, vehicle efficiency, and revenue patterns.
 
-The database simulates a public transportation network (Metro & Bus) and demonstrates how relational databases and SQL analytics can be used to support operational and business decision-making.
+The database simulates a public transportation network (Metro & Bus) and demonstrates how relational databases and SQL analytics can support operational and business decision-making.
 
-This project is part of my Data Science learning journey, focusing on data modeling, SQL-based data analysis, and transportation analytics.
+This project is part of my Data Science learning journey, focusing on:
+
+Data modeling
+
+SQL-based data analysis
+
+Transportation analytics
 
 🎯 Project Objectives
 
@@ -40,7 +46,12 @@ These tables collectively simulate real-world transportation operational data.
 
 The following ER diagram represents the relationships between different tables in the database.
 
-Key relationships:
+(Add your ER diagram image here)
+
+commuters → trips → routes → stations
+                 ↓
+            routes_assignment → vehicles → maintenance
+Key Relationships
 
 A commuter can take multiple trips
 
@@ -50,13 +61,8 @@ A route connects two stations
 
 Vehicles are assigned to routes
 
-Vehicles undergo maintenance over time
+Vehicles undergo periodic maintenance
 
-Data relationship flow:
-
-commuters → trips → routes → stations
-                 ↓
-            routes_assignment → vehicles → maintenance
 🛠️ Tools & Technologies
 Technology	Purpose
 MySQL	Database management
@@ -101,19 +107,6 @@ Which routes may require more vehicles
 
 These insights can help transport authorities optimize operations.
 
-📂 Project Structure
-urban-transport-data-analysis
-│
-├── dataset
-│   └── transportation_data.csv
-│
-├── sql
-│   └── analysis_queries.sql
-│
-├── er_diagram
-│   └── er_diagram.png
-│
-└── README.md
 🚀 Skills Demonstrated
 
 This project demonstrates practical experience with:
@@ -130,35 +123,11 @@ Window functions
 
 Analytical thinking with structured data
 
-📈 Future Improvements
-
-Possible future enhancements include:
-
-Creating a Power BI dashboard
-
-Performing Python-based exploratory data analysis
-
-Building predictive models for passenger demand
-
-Implementing real-time transportation analytics
-
 👨‍💻 Author
 
 Dhruv Rapariya
 
 Aspiring Data Scientist / Data Analyst
-
-Interested in:
-
-Data Science
-
-Data Analysis
-
-SQL & Databases
-
-Machine Learning
-
-Data Visualization
 
 ⭐ Feedback
 
