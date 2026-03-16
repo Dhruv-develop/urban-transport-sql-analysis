@@ -1,0 +1,4 @@
+maintenance_id,vehicle_id,maintenance_date,cost,issue_type
+601,401,5/20/2023,12000,Brake Check
+602,402,5/22/2023,5000,Battery
+603,403,5/25/2023,3000,General Service
