@@ -47,7 +47,7 @@ These tables collectively simulate **real-world transportation operational data*
 
 ```markdown
 <p align="center">
-  <img src="er_diagram/ER Diagram.png" width="700">
+  <img src="er_diagram/ER_Diagram.png" width="700">
 </p>
 
 ```
