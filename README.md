@@ -3,7 +3,7 @@
 
 This project analyzes urban transportation system data using SQL to extract meaningful insights about commuter behavior, route usage, vehicle efficiency, and revenue patterns.
 
-The database simulates a public transportation network (Metro & Bus) and demonstrates how relational databases and SQL analytics can support operational and business decision-making.
+The database simulates a public transportation network (Metro & Bus) and demonstrates how relational databases and SQL analytics support operational and business decision-making.
 
 This project is part of my Data Science learning journey, focusing on:
 
@@ -44,25 +44,15 @@ These tables collectively simulate real-world transportation operational data.
 
 🧩 Entity Relationship Diagram
 
-The following ER diagram represents the relationships between different tables in the database.
+Add your ER diagram image here.
 
-(Add your ER diagram image here)
+![ER Diagram](er_diagram.png)
+
+Relationship flow:
 
 commuters → trips → routes → stations
                  ↓
             routes_assignment → vehicles → maintenance
-Key Relationships
-
-A commuter can take multiple trips
-
-Each trip belongs to a specific route
-
-A route connects two stations
-
-Vehicles are assigned to routes
-
-Vehicles undergo periodic maintenance
-
 🛠️ Tools & Technologies
 Technology	Purpose
 MySQL	Database management
@@ -71,7 +61,7 @@ DBDiagram	ER diagram design
 GitHub	Project documentation
 📊 Analysis Performed
 
-The project performs multiple analytical tasks including:
+The project performs several analytical tasks including:
 
 Total trips and commuter activity
 
@@ -91,7 +81,7 @@ These analyses help simulate transport system performance monitoring.
 
 📊 Business Insights
 
-The project helps answer several real-world questions such as:
+The project helps answer important questions such as:
 
 Which routes generate the most revenue
 
@@ -105,11 +95,9 @@ Which zones generate the highest income
 
 Which routes may require more vehicles
 
-These insights can help transport authorities optimize operations.
+These insights help transport authorities optimize operations.
 
 🚀 Skills Demonstrated
-
-This project demonstrates practical experience with:
 
 Relational database design
 
@@ -126,7 +114,6 @@ Analytical thinking with structured data
 👨‍💻 Author
 
 Dhruv Rapariya
-
 Aspiring Data Scientist / Data Analyst
 
 ⭐ Feedback
