@@ -48,16 +48,9 @@ These tables collectively simulate **real-world transportation operational data*
 Add your ER diagram image here.
 
 ```markdown
-![ER Diagram](er_diagram.png)
+![er_diagram](ER Diagram.png)
 ```
 
-Relationship flow:
-
-```
-commuters → trips → routes → stations
-                 ↓
-            routes_assignment → vehicles → maintenance
-```
 
 ---
 
