@@ -45,10 +45,11 @@ These tables collectively simulate **real-world transportation operational data*
 
 ## 🧩 Entity Relationship Diagram
 
-Add your ER diagram image here.
-
 ```markdown
-![er_diagram](ER Diagram.png)
+<p align="center">
+  <img src="er_diagram/ER Diagram.png" width="700">
+</p>
+
 ```
 
 
