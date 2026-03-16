@@ -45,7 +45,9 @@ These tables collectively simulate **real-world transportation operational data*
 
 ## 🧩 Entity Relationship Diagram
 
-![ER Diagram](er_diagram/Er_Diagram.png)
+<p align="center">
+  <img src="er_diagram/Er_Diagram.png" width="700">
+</p>
 
 
 
