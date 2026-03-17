@@ -118,5 +118,3 @@ Aspiring **Data Scientist / Data Analyst**
 Feedback and suggestions are always welcome.
 
 If you find this project useful, consider **starring ⭐ the repository**.
-
-If you want, I can also show you **how to make your README look much more professional (with badges like SQL | MySQL | Data Science at the top)**. That makes projects look **much stronger to recruiters.**
